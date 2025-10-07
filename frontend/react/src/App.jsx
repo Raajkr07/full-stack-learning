@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './style/App.css'
 import Demo1 from './example/Demo1'
+import Demo2 from './example/Demo2'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         Hello World
       </p>
       <Demo1/>
+      <Demo2/>
     </>
   )
 }
