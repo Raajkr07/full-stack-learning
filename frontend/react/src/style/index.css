@@ -7,3 +7,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Hide scrollbar for all browsers */
+.scrollable-element {
+  overflow: auto;
+}
+
+.scrollable-element::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-element {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
